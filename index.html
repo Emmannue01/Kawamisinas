@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawamisinas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+</head>
+<body>
+    <header>
+        <h1 >Menu : Kawamisinas</h1>
+    </header>
+    <nav>
+        <ul>
+            
+            <li><a href="#micheladas">Micheladas</a></li>
+            <li><a href="#azulitos">Azulitos</a></li>
+            <li><a href="#caguamas">Caguamas</a></li>
+            <li><a href="#cervezas">Cervezas</a></li>           
+            <li><a href="#cantaritos">Cantaritos</a></li>
+            <li><a href="#comida">Antojitos</a></li>
+            <li><a href="#refrescos">Refrescos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="micheladas">
+            <h2>Micheladas</h2>
+            <ul id="micheladas-list"></ul>
+        </section>
+
+        <div class="carousel-container">
+            <div class="carousel">
+
+
+                <img src="Media/miche.jpeg" alt="Imagen 1">
+                <img src="Media/miche1.jpeg" alt="Imagen 2">
+                <img src="Media/miche2.jpeg" alt="Imagen 3">
+
+            </div>
+        </div>
+
+        <section id="azulitos">
+                    <h2>Azulitos</h2>
+                    <ul id="azulitos-list"></ul>
+                </section>
+
+                <div class="carousel-container">
+                    <div class="carousel">
+        
+        
+                        <img src="Media/azul.jpeg" alt="Imagen 1">
+                        <img src="Media/azul1.jpeg" alt="Imagen 2">
+                        <img src="Media/azul2.jpeg" alt="Imagen 3">
+        
+                    </div>
+                </div>
+
+        <section id="caguamas">
+            <h2>Caguamas</h2>
+            <ul id="caguamas-list"></ul>
+        </section>
+
+        <div class="carousel-container">
+            <div class="carousel">
+
+
+                <img src="Media/cagu.jpeg" alt="Imagen 1">
+                <img src="Media/cagu1.jpeg" alt="Imagen 2">
+                <img src="Media/cagu2.png" alt="Imagen 3">
+
+            </div>
+        </div>
+
+        <section id="cervezas">
+            <h2>Cervezas</h2>
+            <ul id="cervezas-list"></ul>
+        </section>
+
+        <div class="carousel-container">
+            <div class="carousel">
+
+
+                <img src="Media/cerve.jpeg" alt="Imagen 1">
+                <img src="Media/cerve1.jpeg" alt="Imagen 2">
+                <img src="Media/cerve2.jpeg" alt="Imagen 3">
+
+            </div>
+        </div>
+        
+        
+
+        <section id="cantaritos">
+            <h2>Cantaritos</h2>
+            <ul id="cantaritos-list"></ul>
+        </section>
+
+        <div class="carousel-container">
+            <div class="carousel">
+
+
+                <img src="Media/cant.jpg" alt="Imagen 1">
+                <img src="Media/cant1.jpeg" alt="Imagen 2">
+                <img src="Media/cant2.jpeg" alt="Imagen 3">
+
+            </div>
+        </div>
+
+        <section id="comida">
+            <h2>Antojitos </h2>
+            <ul id="comida-list"></ul>
+        </section>
+
+        <section id="refrescos"> <!-- Nueva sección de refrescos -->
+            <h2>Refrescos</h2>
+            <ul id="refrescos-list"></ul>
+        <br><br><br><br><br>
+
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Kawamisinas. Todos los derechos reservados<a href="login.html">.</a></p>
+    </footer>
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,  // Habilita el autoplay
+                autoplaySpeed: 2000,  // Velocidad de cambio de imágenes en milisegundos
+                dots: true,  // Muestra los puntos de navegación
+                arrows: false,  // Oculta las flechas de navegación
+            });
+        });
+        
+        document.getElementById('open-whatsapp').addEventListener('click', function() {
+            document.querySelector('.whatsapp-button').classList.add('open');
+        });
+    </script>
+
+</body>
+</html>

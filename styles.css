@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    
+    background-color: #444;
+    color: white;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2rem;
+}
+
+main h2 {
+    color: #333;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Agrega estos estilos adicionales a los ya proporcionados */
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    display: block;
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#orders {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+
+#orders ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#orders ul li {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+/* Estilos para el botón de eliminar en la lista de pedidos */
+ul.order-list button {
+    background-color: #dc3545; /* Color de fondo */
+    color: white; /* Color de texto */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno */
+    cursor: pointer; /* Cursor de puntero */
+    margin-left: 10px; /* Margen izquierdo */
+    font-size: 14px; /* Tamaño de fuente */
+    border-radius: 4px; /* Borde redondeado */
+}
+
+ul.order-list button:hover {
+    background-color: #c82333; /* Color de fondo al pasar el mouse */
+}
+
+.carousel-container {
+    max-width: 1000px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+.carousel {
+    width: 100%; /* Ajusta el ancho del carrusel al 100% del contenedor */
+    height: auto; /* Permite que la altura del carrusel se ajuste automáticamente */
+}
+.carousel img {
+    width: 200px;
+    height: 400px;
+}
